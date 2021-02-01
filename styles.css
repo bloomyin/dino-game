@@ -6,7 +6,7 @@
 }
 
 
-#dino {
+#dino { 
     width: 50px;
     height: 50px;
     background-image: url(images/kisspng-dino-t-rex-runner-tyrannosaurus-dino-chrome-tyrannosaurus-5b3c58ed7b25c4.5164496715306815815044.png);
@@ -15,9 +15,12 @@
     position: relative;
     top: 150px;
 
+    
+}
+.jump{
     animation: jump 0.3s linear;
 }
-
+ 
 
 @keyframes jump {
     0% {
