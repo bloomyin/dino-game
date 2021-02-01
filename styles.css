@@ -39,3 +39,28 @@
         top: 150px;
     }
 }
+
+
+#rainbow {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    left: 500px;
+
+    background-image: url(images/rainbow-12401.png);
+    background-size: 20px 40px;
+
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 500px;
+    }
+
+    100% {
+        left: -20px;
+    }
+
+}
