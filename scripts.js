@@ -21,7 +21,12 @@ let isAlive = setInterval ( function () {
      let rainbowLeft = parseInt(window.getComputedStyle(rainbow).getPropertyValue("left"));
     
    // detect collision
-   if ()
+   if (rainbowLeft <50 && rainbowLeft >0 && dinoTop >= 140)
+   {
+       //collision
+       alert("Game Over!");
+   }
+
    
 }, 10);
 
